@@ -1,0 +1,16 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.alto {
+    @media (min-width:992px) {
+        height: 100vh;
+    }
+}
+
+.hola {
+    color: palevioletred;
+    justify-content: center;
+    align-items: end;
+    display: flex;
+}
